@@ -16,5 +16,9 @@ typedef struct matrix_struct {
 } matrix_t;
 
 int s_transpose(matrix_t* A, matrix_t* result);
+int s_sub_matrix(matrix_t* A, matrix_t* B, matrix_t* result);
+int s_sum_matrix(matrix_t* A, matrix_t* B, matrix_t* result);
+void s_remove_matrix(matrix_t* A);
+int s_create_matrix(int rows, int columns, matrix_t* result);
 
 #endif
